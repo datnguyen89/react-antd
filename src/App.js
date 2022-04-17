@@ -1,12 +1,30 @@
-import React from 'react';
-import './App.less';
+import React from 'react'
+// region Styling
+import './App.less'
+// endregion
+// region Router
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import NotFoundPage from './pages/NotFoundPage'
+// endregion
+// region Pages
 
-import { Button } from 'antd';
+// endregion
 
-const App = () => (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
-);
 
-export default App;
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='*' element={<NotFoundPage />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App
