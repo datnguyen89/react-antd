@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { NotFoundPageWrapper } from './NotFoundPageStyled'
 import { Button, Result, Space } from 'antd'
 import { useNavigate } from 'react-router-dom'
