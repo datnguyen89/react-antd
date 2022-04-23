@@ -1,9 +1,14 @@
 import React from 'react'
+import { Button, Switch } from 'antd'
+import { useTheme } from '../../hooks/use-theme'
 
 const HomePage = props => {
+  const [darkMode, setDarkMode] = useTheme();
+
   return (
     <div>
-      This is Home sweet home
+      <Button>OKKKKK</Button>
+      <Switch checked={darkMode} onChange={setDarkMode} />
     </div>
   )
 }
