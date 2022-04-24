@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-  Outlet,
-} from 'react-router-dom'
-import { ProtectedLayoutWrapper } from './ProtectedLayoutStyled'
+import { Outlet } from 'react-router-dom'
 import Sider from 'antd/es/layout/Sider'
 import { Layout } from 'antd'
 import { Content, Footer, Header } from 'antd/es/layout/layout'
