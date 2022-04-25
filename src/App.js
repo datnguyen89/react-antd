@@ -17,8 +17,8 @@ import { PAGES } from './constant'
 import HomePage from './pages/HomePage'
 import NotFoundPage from './pages/NotFoundPage'
 import LoginPage from './pages/LoginPage'
-import ProtectedLayout from './pages/Layouts/ProtectedLayout'
-import AuthenticationLayout from './pages/Layouts/AuthenticationLayout'
+import ProtectedLayout from './Layouts/ProtectedLayout'
+import AuthenticationLayout from './Layouts/AuthenticationLayout'
 
 // endregion
 
